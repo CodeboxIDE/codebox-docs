@@ -112,3 +112,27 @@ a.navbar-brand > img {
   color: #eee;
 }
 
+/*
+  Mark down title formatting
+*/
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin: 1em 0 15px;
+  padding: 0;
+  font-weight: bold;
+  line-height: 1.7;
+  cursor: text;
+  position: relative;
+}
+
+.markdown-body h1 {
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body h2 {
+  border-bottom: 1px solid #eee;
+}
