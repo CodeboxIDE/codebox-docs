@@ -91,6 +91,6 @@ a.navbar-brand > img {
   text-shadow: none;
 }
 #menu li.active a {
-  background: #428bca;
-  color: #fff;
+  background: #eee;
+  color: #999;
 }
