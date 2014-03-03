@@ -28,7 +28,7 @@ export WORKSPACE_ADDONS_DIR=/Users/samypesse/Desktop/Projects/CodeBox/addons
 export WORKSPACE_DIR=/Users/samypesse/Desktop/Projects/CodeBox/examples/node-js-sample
 ```
 
-Get a full list of environment variables in this [article](./env.md).
+Get a full list of environment variables in this [article](/ide/env.html).
 
 When your **.env** file is ready, simply run:
 

@@ -6,7 +6,7 @@ section: addons/client
 
 # Build Client-Side Add-ons
 
-Client add-ons need to define the ```client``` field according to [the manifest documentation](package.md).
+Client add-ons need to define the ```client``` field according to [the manifest documentation](/addons/package.html).
 
 Example:
 

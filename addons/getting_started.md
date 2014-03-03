@@ -19,7 +19,7 @@ The best way for developing addons is to install Codebox locally and run it an a
 
 1) Create a GIT repository for your add-on (for example on GitHub or Bitbucket)
 
-2) Open a **.env** file in the Codebox directory and add the following [environment variables](../server/env.md):
+2) Open a **.env** file in the Codebox directory and add the following [environment variables](/ide/env.html):
 
 ```
 export DEV=true
@@ -44,8 +44,8 @@ $ git remote set-url origin https://github.com/user/repo2.git
 
 ### Writting your add-on
 
-* [Structure of the package.json](package.md)
-* [Running node.js code](nodejs.md)
-* [Running client code](client.md)
-* [Publish your add-on](publish.md)
+* [Structure of the package.json](package.html)
+* [Running node.js code](nodejs.html)
+* [Running client code](client.html)
+* [Publish your add-on](publish.html)
 
