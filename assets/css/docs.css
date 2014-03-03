@@ -96,3 +96,18 @@ a.navbar-brand > img {
   background: #eee;
   color: #999;
 }
+
+/*
+  Cancel out bootstrap's pre styling
+  when highlighting
+*/
+.highlight {
+  border-radius: 5px;
+}
+
+.highlight > pre {
+  border: none;
+  background: none;
+  color: #eee;
+}
+
