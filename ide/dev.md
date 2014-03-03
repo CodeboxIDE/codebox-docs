@@ -36,4 +36,4 @@ When your **.env** file is ready, simply run:
 $ npm start
 ```
 
-It will read the environment variables from the .env and start the build + run process.
+It will read the environment variables from the **.env** and start the build & run process.
