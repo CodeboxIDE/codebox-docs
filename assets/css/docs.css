@@ -16,9 +16,10 @@ a.navbar-brand > img {
 }
 
 .navbar-inner {
+  background: #081218 url(/assets/img/header-bg.jpg);
   padding: 10px 0;
   height: 80px;
-  background: #428bca;
+  background-attachment: fixed;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
