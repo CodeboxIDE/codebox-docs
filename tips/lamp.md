@@ -44,7 +44,9 @@ sudo killall mysqld
 ```
 
 ### Authentication
+
 By default on `codebox.io` the **MySQL** credentials are :
+
   - **username:** `root`
   - **password:** `root`
 
