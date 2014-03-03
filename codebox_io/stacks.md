@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Stacks
+section: codebox_io/stacks
 ---
 
 ## Codebox Stacks

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Getting Started
+section: codebox_io/getting_started
 ---
 
 Getting Started
