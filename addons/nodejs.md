@@ -10,7 +10,7 @@ Addon can define a node.js module that will be started with Codebox. It uses [en
 
 For example, for the following **package.json**:
 
-```
+```json
 {
     "name": "test",
     "version": "0.1.0",
@@ -64,7 +64,7 @@ This module allows your add-on to define api method than can be used by the clie
 Example:
 
 **package.json**:
-```
+```json
 {
     "name": "helloRPC",
     "version": "0.1.0",
