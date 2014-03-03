@@ -53,7 +53,7 @@ a.navbar-brand > img {
   min-height: 800px;
   border-right: 1px solid #eee;
   width: 230px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 @media (min-width: 1200px) {
   #menu {
@@ -135,4 +135,11 @@ a.navbar-brand > img {
 
 .markdown-body h2 {
   border-bottom: 1px solid #eee;
+}
+
+/*
+  Give it some room at the bottom
+*/
+.markdown-body {
+  margin-bottom: 100px;
 }
