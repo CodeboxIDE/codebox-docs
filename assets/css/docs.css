@@ -53,6 +53,7 @@ a.navbar-brand > img {
   min-height: 800px;
   border-right: 1px solid #eee;
   width: 230px;
+  margin-bottom: 50px;
 }
 @media (min-width: 1200px) {
   #menu {
