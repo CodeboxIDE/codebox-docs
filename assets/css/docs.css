@@ -16,7 +16,8 @@ a.navbar-brand > img {
 }
 
 .navbar-inner {
-  padding: 5px 0;
+  padding: 10px 0;
+  height: 80px;
   background: #428bca;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
