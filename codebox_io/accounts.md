@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stacks
+title: Accounts
 section: codebox_io/accounts
 ---
 

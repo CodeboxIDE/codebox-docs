@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stacks
+title: REST API
 section: codebox_io/api
 ---
 
