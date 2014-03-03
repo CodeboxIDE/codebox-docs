@@ -49,3 +49,22 @@ By default on `codebox.io` the **MySQL** credentials are :
   - **password:** `root`
 
 `codebox.io` does not expose the credentials in environment variables yet.
+
+## PHP Code Example
+
+A simple `PHP` sample that connects to the MySQL database prints the info.
+
+```php
+<?php
+// Connect to MySQL database
+$link = mysql_connect('localhost', 'root', 'root');
+
+// Error connecting
+if (!$link) {
+   die('Error connecting to MySQL server : ' . mysql_error());
+}
+
+// Print out information on the MySQL host
+printf("MySQL Host info : %s\n", mysql_get_host_info());
+?>
+```
