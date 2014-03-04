@@ -52,6 +52,17 @@ By default on `codebox.io` the **MySQL** credentials are :
 
 `codebox.io` does not expose the credentials in environment variables yet.
 
+## PHPMyAdmin
+
+### Accessing the admin UI
+
+`phpmyadmin` is installed by default on `codebox.io`, when using the `apache` runner you can access the `phpmyadmin` UI by visiting the `/phpmyadmin/` url.
+
+### Credentials
+
+The `phpmyadmin` credentials are the same as specified above for `mysql`.
+
+
 ## PHP Code Example
 
 A simple `PHP` sample that connects to the MySQL database prints the info.
