@@ -144,3 +144,24 @@ a.navbar-brand > img {
 .markdown-body {
   margin-bottom: 100px;
 }
+
+ul.resource-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+ul.resource-list li > a > i {
+  margin-right: 8px;
+}
+
+ul.resource-list > li > a {
+  display: block;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+ul.resource-list > li > a:hover {
+  background: #f5f5f5;
+  border-radius: 5px;
+  text-decoration: none;
+}
