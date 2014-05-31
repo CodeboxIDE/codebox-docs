@@ -30,7 +30,7 @@ This command will add (or update) your add-on to the Codebox.io main repository.
 $ codebox-io publish ./path/to/the/repository
 ```
 
-You can also unpublishing it, using:
+You can also unpublish it, using:
 
 ```
 $ codebox-io unpublish ./path/to/the/repository

@@ -34,14 +34,14 @@ Here is the **main.js**:
 var myNodeModule = require("myNodeModule");
 
 module.exports = function setup(plugin, imports, register) {
-    // Dependencies from others codebox components specified in the package.json are laoded here:
+    // Dependencies from others codebox components specified in the package.json are loaded here:
     var rpc = imports.rpc;
 
     var hello = function(name) {
         return "Hello "+name;
     };
 
-    // Register your component to signal it's ready and ley other access 'myTest':
+    // Register your component to signal it's ready and let others access 'myTest':
     register(null, {
         myTest: {
             'hello': hello
@@ -50,7 +50,7 @@ module.exports = function setup(plugin, imports, register) {
 };
 ```
 
-You can use the object provided by all the moduels from the [core](https://github.com/FriendCode/codebox/tree/master/core).
+You can use the object provided by all the modules from the [core](https://github.com/FriendCode/codebox/tree/master/core).
 
 
 ### Important modules
@@ -87,7 +87,7 @@ var HelloService = function() {
     };
 
     // Method starting with _ are not accessible using rpc
-    this._getMessage = funciton(name, lang) {
+    this._getMessage = function(name, lang) {
         lang = lang || this.lang;
         return this.langs[lang]+" "+name;
     };
