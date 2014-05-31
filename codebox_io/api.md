@@ -21,7 +21,7 @@ $ curl -X POST https://api.codebox.io/api/boxes \
    -d "stack=node"
 ```
 
-Optional paramters are:
+Optional parameters are:
 
 * *description*: (string) default is empty
 * *git*: (string) default is empty
@@ -155,6 +155,6 @@ box.content("./test.gz").then(function() {
 });
 ```
 
-## Others librairies
+## Others libraries
 
 * [Erlang](https://github.com/mawuli-ypa/codebox-erlang)

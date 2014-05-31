@@ -14,7 +14,7 @@ Sign up and create an account on Codebox at https://www.codebox.io. There are di
 * Using your dashboard at https://www.codebox.io
 * Using the command line tool
 * Using the REST API
-* Using some librairies for Javascript, Python or Ruby
+* Using some libraries for Javascript, Python or Ruby
 
 
 Each account has an unique **API Token**, we will use this token during the next step for creating and managing Boxes from outside the Dashboard.
@@ -27,7 +27,7 @@ Each boxes who created use the SSH key of your account, you can add the public k
 
 It's very simple to create coding environment using the web dashboard. Simply go to https://www.codebox.io and log in. Click on *"Create a new box"* and follow the instructions.
 
-You can also manage your differents boxes and access reports about usage and collaborators.
+You can also manage your different boxes and access reports about usage and collaborators.
 
 The dashboard is also use to manage credit.
 
@@ -48,7 +48,7 @@ $ codebox-io auth <your api token>
 Creating boxes is really easy:
 
 ```
-$ codebox-io create type1 TestBox --stack="node" --git="https://github/FriendCode/codebox-client.git"
+$ codebox-io create type1 TestBox --stack="node" --git="https://github.com/FriendCode/codebox-client.git"
 ```
 
 Download a box content
