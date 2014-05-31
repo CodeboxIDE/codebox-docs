@@ -7,7 +7,7 @@ section: codebox_io/stacks
 ## Codebox Stacks
 
 Codebox lets you define a stack for each box. Each stack is a collection of different tools.
-This document group all the informations about the differents stacks and the tools associated with each stack.
+This document group all the informations about the different stacks and the tools associated with each stack.
 
 ### Base stack
 

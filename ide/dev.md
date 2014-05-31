@@ -6,7 +6,7 @@ section: ide/dev
 
 # Run Codebox from source
 
-If you wan to contribute on Codebox and run it from source to easily test your changes, this article is here to help you.
+If you want to contribute on Codebox and run it from source to easily test your changes, this article is here to help you.
 
 No need to use the ```grunt``` command, simply fill a **.env** file in the root source code directory with:
 

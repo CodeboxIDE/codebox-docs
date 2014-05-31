@@ -46,4 +46,4 @@ define([], function() {
 });
 ```
 
-All the component from the [core](https://github.com/FriendCode/codebox/tree/master/client) are accesible using ```codebox.require```.
+All the component from the [core](https://github.com/FriendCode/codebox/tree/master/client) are accessible using ```codebox.require```.

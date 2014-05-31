@@ -45,7 +45,7 @@ name should be globally unique since Codebox will store addon's data under the d
 
 #### version
 
-(string) version for the addon, format should be : X.X.X, comparaison are done by converting A.B.C to the int ABC.
+(string) version for the addon, format should be : X.X.X, comparison are done by converting A.B.C to the int ABC.
 
 ### Fields
 
@@ -63,15 +63,15 @@ name should be globally unique since Codebox will store addon's data under the d
 
 #### description
 
-(string) Descript of the add-on to display in the add-ons manager.
+(string) description of the add-on to display in the add-ons manager.
 
 ### homepage
 
-(string) The url to the project homepage.
+(string) url to the project homepage.
 
 #### engines
 
-(object) You can specify the version of Codebox that your stuff works on:
+(object) you can specify the version of Codebox that your stuff works on:
 
 ```
 { "engines" : { "codebox" : ">=0.4.0" } }
@@ -79,7 +79,7 @@ name should be globally unique since Codebox will store addon's data under the d
 
 #### client
 
-(object) If your add-on need to run some component on the client, it should contain a ```main``` key, you can also defined in the same way that for [engineer](https://github.com/FriendCode/engineer) the dependencies.
+(object) if your add-on needs to run some component on the client, it should contain a ```main``` key, you can also defined in the same way that for [engineer](https://github.com/FriendCode/engineer) the dependencies.
 
 ```
 {
@@ -95,7 +95,7 @@ name should be globally unique since Codebox will store addon's data under the d
 }
 ```
 
-You can caches resources for offline use by using the key ```resources``` (it supports glob):
+You can cache resources for offline use by using the key ```resources``` (it supports glob):
 
 ```
 {
@@ -110,8 +110,8 @@ You can caches resources for offline use by using the key ```resources``` (it su
 
 #### main
 
-(string) The main field is a module ID that is the node primary entry point to your add-on.
+(string) module ID that is the node primary entry point to your add-on.
 
 #### dependencies
 
-(object) Node dependencies are specified with a simple hash of package name to version range (just like for NPM package). The version range is a string which has one or more space-separated descriptors. Dependencies can also be identified with a tarball or git URL.
+(object) Node dependencies are specified with a simple hash of package name to version range (just like for NPM packages). The version range is a string which has one or more space-separated descriptors. Dependencies can also be identified with a tarball or git URL.

@@ -17,7 +17,7 @@ Codebox use environment variables for defining its configuration, here is a list
 | WORKSPACE\_PUBLIC | If defined the workspace will be considered as public | false |
 | WORKSPACE\_USERS\_MAX | Max number of active collaborators on the box | 100 |
 | WORKSPACE\_USERS\_MAX | Max number of users | 100 |
-| WORKSPACE\_HOOK\_AUTH | Url for the authentification hook | |
+| WORKSPACE\_HOOK\_AUTH | Url for the authentication hook | |
 | WORKSPACE\_HOOK\_EVENTS | Url for the events hook | |
 | WORKSPACE\_HOOK\_SETTINGS | Url for the settings hook | |
 | WORKSPACE\_HOOK\_TOKEN | Token to pass as Authorization header for all web hooks | |
