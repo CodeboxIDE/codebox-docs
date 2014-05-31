@@ -10,7 +10,7 @@ Codebox lets you sync your files offline to keep working when your network is do
 
 ### Downloading files for offline uses
 
-When you open the IDE, it will automatically start downloading all your project in your local machine, this operation can take a few seconds or minutes according to the size of your project. This operation will also be run periodically to keep the local verison updated.
+When you open the IDE, it will automatically start downloading all your project in your local machine, this operation can take a few seconds or minutes according to the size of your project. This operation will also be run periodically to keep the local version updated.
 
 You can also manually run the download operation using the "Synchronize" menu.
 
@@ -20,6 +20,6 @@ The IDE will detect when your internet access is down and switch to offline mode
 
 ### Internet is back
 
-When your internet access is back, the IDE will refresh to switch to online mode, it will calculated the changes between your offline modifications and the project. The menu "Changes" will be used to apply offline modifications that you want.
+When your internet access is back, the IDE will refresh to switch to online mode, it will calculate the changes between your offline modifications and the project. The menu "Changes" will be used to apply any offline modifications that you want.
 
 **Caution:** No modifications will be applied automatically.
